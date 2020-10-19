@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "commit": "yarn git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "name": "happy2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Molinux <cybercrowbr@gmail.com>",
+  "license": "MIT"
+}
